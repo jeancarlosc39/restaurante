@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 class ApiController extends Controller
 {
+    //Status 1 pedios em andamento Status 2 pedidos há fazer e em andamento status 3 pedidos entregues
     //Listar pedidos em andamento garçom
       public function pedidosAndamento() {
       
